@@ -73,10 +73,10 @@
     </nav>
 
     <!-- Slider or carousel -->
-    <div class="carousel h-[500px] w-full">
+    <div class="carousel mt-12 lg:h-[500px] w-full">
       <div id="slide1" class="carousel-item relative w-full">
         <div class="hero bg-base-200">
-          <div class="hero-content flex-col-reverse lg:flex-row-reverse gap-24 px-24">
+          <div class="hero-content flex-col-reverse lg:flex-row-reverse gap-24 lg:px-24">
             <img src="./images/slider/bike1.png" class="max-w-sm flex-1 rounded-lg" />
             <div class="flex-1">
               <h1 class="text-6xl text-black font-bold">Ride-on R15 V4 <br>
@@ -94,7 +94,7 @@
       </div>
       <div id="slide2" class="carousel-item relative w-full">
         <div class="hero bg-base-200">
-          <div class="hero-content flex-col-reverse lg:flex-row-reverse gap-24 px-24">
+          <div class="hero-content flex-col-reverse lg:flex-row-reverse gap-24 lg:px-24">
             <img src="./images/slider/bike2.png" class="max-w-sm flex-1 rounded-lg" />
             <div class="flex-1">
               <h1 class="text-6xl text-black font-bold">Ride-on R15 V4 <br>
@@ -112,7 +112,7 @@
       </div>
       <div id="slide3" class="carousel-item relative w-full">
         <div class="hero bg-base-200">
-          <div class="hero-content flex-col-reverse lg:flex-row-reverse gap-24 px-24">
+          <div class="hero-content flex-col-reverse lg:flex-row-reverse gap-24 lg:px-24">
             <img src="./images/slider/bike3.png" class="max-w-sm flex-1 rounded-lg" />
             <div class="flex-1">
               <h1 class="text-6xl text-black font-bold">Ride-on R15 V4 <br>
@@ -130,7 +130,7 @@
       </div>
       <div id="slide4" class="carousel-item relative w-full">
         <div class="hero bg-base-200">
-          <div class="hero-content flex-col-reverse lg:flex-row-reverse gap-24 px-24">
+          <div class="hero-content flex-col-reverse lg:flex-row-reverse gap-24 lg:px-24">
             <img src="./images/slider/bike4.png" class="max-w-sm flex-1 rounded-lg" />
             <div class="flex-1">
               <h1 class="text-6xl text-black font-bold">Ride-on R15 V4 <br>
@@ -149,6 +149,8 @@
     </div>
   </header>
   <main class="max-w-6xl m-auto">
+
+    <!-- Features bike section -->
     <section>
       <h1 class="text-5xl font-semibold text-black text-center mt-28">Fetured Bikes In This Year</h1>
       <p class="text-bike-primary text-base text-center mb-12">Best bike collection</p>
@@ -167,52 +169,121 @@
 
     <!-- Latest news section -->
     <section>
-        <h1 class="text-5xl font-semibold text-black text-center mt-28 mb-12">latest News</h1>
-        <div class="flex flex-col lg:flex-row lg:justify-between lg:items-center">
-          <!-- latest news 1 -->
-          <div class="card w-96 bg-base-100 shadow-xl">
-            <figure class="px-7 pt-7">
-              <img src="./images/others/latest1.png" alt="Shoes" class="rounded-xl" />
-            </figure>
-            <div class="p-7">
-              <h2 class="card-title text-3xl text-left text-[#18191F] mb-2">Ducati XDIAVEL S-73</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
-              <div class="card-actions">
-                <button class="btn btn-error bg-bike-primary text-white px-12 mt-7">Buy Now</button>
-              </div>
-            </div>
-          </div>
-          <!-- latest news 2 -->
-          <div class="card w-96 bg-base-100 shadow-xl">
-            <figure class="px-7 pt-7">
-              <img src="./images/others/latest2.png" alt="Shoes" class="rounded-xl" />
-            </figure>
-            <div class="p-7">
-              <h2 class="card-title text-3xl text-left text-[#18191F] mb-2">Motorcycles & Scooters</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
-              <div class="card-actions">
-                <button class="btn btn-error bg-bike-primary text-white px-12 mt-7">Buy Now</button>
-              </div>
-            </div>
-          </div>
-          <!-- latest news 3 -->
-          <div class="card w-96 bg-base-100 shadow-xl">
-            <figure class="px-7 pt-7">
-              <img src="./images/others/latest3.png" alt="Shoes" class="rounded-xl" />
-            </figure>
-            <div class="p-7">
-              <h2 class="card-title text-3xl text-left text-[#18191F] mb-2">2021 Honda CBR500R</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
-              <div class="card-actions">
-                <button class="btn btn-error bg-bike-primary text-white px-12 mt-7">Buy Now</button>
-              </div>
+      <h1 class="text-5xl font-semibold text-black text-center mt-28 mb-12">latest News</h1>
+      <div class="flex flex-col gap-24 lg:flex-row justify-between items-center">
+        <!-- latest news 1 -->
+        <div class="card w-96 bg-base-100 shadow-xl">
+          <figure class="px-7 pt-7">
+            <img src="./images/others/latest1.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="p-7">
+            <h2 class="card-title text-3xl text-left text-[#18191F] mb-2">Ducati XDIAVEL S-73</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi
+              lectus at.</p>
+            <div class="card-actions">
+              <button class="btn btn-error bg-bike-primary text-white px-12 mt-7">Buy Now</button>
             </div>
           </div>
         </div>
+        <!-- latest news 2 -->
+        <div class="card w-96 bg-base-100 shadow-xl">
+          <figure class="px-7 pt-7">
+            <img src="./images/others/latest2.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="p-7">
+            <h2 class="card-title text-3xl text-left text-[#18191F] mb-2">Motorcycles & Scooters</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi
+              lectus at.</p>
+            <div class="card-actions">
+              <button class="btn btn-error bg-bike-primary text-white px-12 mt-7">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <!-- latest news 3 -->
+        <div class="card w-96 bg-base-100 shadow-xl">
+          <figure class="px-7 pt-7">
+            <img src="./images/others/latest3.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          <div class="p-7">
+            <h2 class="card-title text-3xl text-left text-[#18191F] mb-2">2021 Honda CBR500R</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi
+              lectus at.</p>
+            <div class="card-actions">
+              <button class="btn btn-error bg-bike-primary text-white px-12 mt-7">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Happy Client Section -->
     <section>
-
+      <h1 class="text-5xl font-semibold text-black text-center mt-28 mb-12">Happy <span
+          class="text-bike-primary">Clients says</span></h1>
+      <div class="flex flex-col gap-24 lg:flex-row justify-around items-center">
+        <!-- Happy client 1 -->
+        <div class="card w-72 bg-base-100 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img src="./images/others/user-1.png" alt="Shoes" class="w-36" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <p>Slate helps you see how
+              many more days you need
+              to work to reach your financial
+              goal for the month and year..</p>
+            <div class="rating rating-md py-3">
+              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" checked />
+              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+            </div>
+            <h4 class="text-[#23A6F0] text-sm font-semibold">Regina Miles</h4>
+            <h4 class="text-[#252B42] text-sm font-semibold">Banker</h4>
+          </div>
+        </div>
+        <!-- Happy client 2 -->
+        <div class="card w-72 bg-base-100 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img src="./images/others/user-2.png" alt="Shoes" class="w-36" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <p>Slate helps you see how
+              many more days you need
+              to work to reach your financial
+              goal for the month and year..</p>
+            <div class="rating rating-md py-3">
+              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" checked />
+              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+            </div>
+            <h4 class="text-[#23A6F0] text-sm font-semibold">Regina Miles</h4>
+            <h4 class="text-[#252B42] text-sm font-semibold">Banker</h4>
+          </div>
+        </div>
+        <!-- Happy client 3 -->
+        <div class="card w-72 bg-base-100 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img src="./images/others/user-3.png" alt="Shoes" class="w-36" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <p>Slate helps you see how
+              many more days you need
+              to work to reach your financial
+              goal for the month and year..</p>
+            <div class="rating rating-md py-3">
+              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" checked />
+              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+            </div>
+            <h4 class="text-[#23A6F0] text-sm font-semibold">Regina Miles</h4>
+            <h4 class="text-[#252B42] text-sm font-semibold">Banker</h4>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 </body>
